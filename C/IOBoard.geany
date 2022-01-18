@@ -1,0 +1,48 @@
+[file_prefs]
+final_new_line=true
+ensure_convert_new_lines=false
+strip_trailing_spaces=false
+replace_tabs=false
+
+[indentation]
+indent_width=4
+indent_type=1
+indent_hard_tab_width=8
+detect_indent=false
+detect_indent_width=false
+indent_mode=2
+
+[project]
+name=IOBoard
+base_path=/home/pi/Desktop/C/GPIO/IOBoardV1
+description=
+file_patterns=
+
+[long line marker]
+long_line_behaviour=1
+long_line_column=72
+
+[files]
+current_page=0
+FILE_NAME_0=35673;C;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FDesktop%2FC%2FGPIO%2FIOBoardV1%2FIOBoard.c;0;4
+FILE_NAME_1=10800;C;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FDesktop%2FC%2FGPIO%2FIOBoardV1%2Fiochannels.c;0;4
+FILE_NAME_2=571;C;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FDesktop%2FC%2FGPIO%2FIOBoardV1%2Fiochannels.h;0;4
+FILE_NAME_3=5214;C;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FDesktop%2FC%2FGPIO%2FIOBoardV1%2Fhttpget.c;0;4
+FILE_NAME_4=1083;C;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FDesktop%2FC%2FGPIO%2FIOBoardV1%2Fhttpget.h;0;4
+FILE_NAME_5=44;C;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FDesktop%2FC%2FGPIO%2FIOBoardV1%2Fdev.h;0;4
+FILE_NAME_6=11676;C;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FDesktop%2FC%2FGPIO%2FIOBoardV1%2Frules.c;0;4
+FILE_NAME_7=0;C;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FDesktop%2FC%2FGPIO%2FIOBoardV1%2Frules.h;0;4
+FILE_NAME_8=13529;C;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FDesktop%2FC%2FGPIO%2FIOBoardV1%2Fstates.c;0;4
+FILE_NAME_9=0;C;0;EUTF-8;1;1;0;%2Fhome%2Fpi%2FDesktop%2FC%2FGPIO%2FIOBoardV1%2Fstates.h;0;4
+
+[VTE]
+last_dir=/home/pi/Desktop/C/GPIO
+
+[build-menu]
+CFT_01_LB=İn_şa Et
+CFT_01_CM=gcc -Wall -o "%e" "%f" httpget.o devices.o iochannels.o rules.o states.o gpio.o $(pkg-config --cflags gtk+-3.0) $(pkg-config --libs json-c) -Wl,--whole-archive -lrt -ldl -lm -Wl,--no-whole-archive -rdynamic $(pkg-config --libs gtk+-3.0) -lwiringPi $(pkg-config --libs sqlite3)
+CFT_01_WD=
+filetypes=C;
+CFT_00_LB=_Derle
+CFT_00_CM=gcc -Wall -c "%f" -DIS_RPI -DSTANDALONE -D__STDC_CONSTANT_MACROS -D__STDC_LIMIT_MACROS -DTARGET_POSIX -D_LINUX -fPIC -DPIC -D_REENTRANT -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -U_FORTIFY_SOURCE -g -ftree-vectorize -pipe -DUSE_VCHIQ_ARM -Wno-psabi -mcpu=cortex-a53 -mfloat-abi=hard -mfpu=neon-fp-armv8 -mneon-for-64bits $(pkg-config --cflags gtk+-3.0) $(pkg-config --cflags json-c) -Wno-deprecated-declarations -I/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/include -I/usr/lib/jvm/jdk-8-oracle-arm32-vfp-hflt/include/linux
+CFT_00_WD=
