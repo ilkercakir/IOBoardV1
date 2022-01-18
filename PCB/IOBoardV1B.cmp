@@ -1,0 +1,129 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Paz 07 Kas 2021 14:53:53 +03
+
+BeginCmp
+TimeStamp = /60DCB332;
+Reference = C1;
+ValeurCmp = 330nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E96E76;
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /6187BB35;
+Reference = CON1;
+ValeurCmp = USB-MICRO-B;
+IdModule  = USB_MICRO_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /60DCB305;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /610E0C16;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /60DCB7A3;
+Reference = J1;
+ValeurCmp = RJ45_2;
+IdModule  = RJ45_8_io0;
+EndCmp
+
+BeginCmp
+TimeStamp = /6187BC00;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /60DCB28D;
+Reference = P1;
+ValeurCmp = RASPBERRY_HAT;
+IdModule  = PIN_ARRAY_20X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /6109862A;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /60DCB2BA;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /60DCB314;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /60DCB2E7;
+Reference = R3;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /60DCC10C;
+Reference = R4;
+ValeurCmp = 2.2K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /60DCB2C9;
+Reference = R5;
+ValeurCmp = 3.3K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /610E0C25;
+Reference = R6;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /60DCB1DE;
+Reference = U1;
+ValeurCmp = 74LS138;
+IdModule  = SO16N;
+EndCmp
+
+BeginCmp
+TimeStamp = /60DCB147;
+Reference = U2;
+ValeurCmp = 74HC14;
+IdModule  = SO14N;
+EndCmp
+
+BeginCmp
+TimeStamp = /60DCB21B;
+Reference = U3;
+ValeurCmp = 74LS74;
+IdModule  = SO14N;
+EndCmp
+
+EndListe
