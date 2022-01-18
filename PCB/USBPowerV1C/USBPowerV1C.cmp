@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Cum 13 Ağu 2021 22:12:17 +03
+
+BeginCmp
+TimeStamp = /610E143B;
+Reference = CON1;
+ValeurCmp = BARREL_JACK;
+IdModule  = BARREL_JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /6116C32E;
+Reference = CON2;
+ValeurCmp = USB-MICRO-B;
+IdModule  = USB_MICRO_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /610E1C25;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /610EADFD;
+Reference = J1;
+ValeurCmp = RJ45_2;
+IdModule  = RJ45_8_io0;
+EndCmp
+
+BeginCmp
+TimeStamp = /610EAEF1;
+Reference = J2;
+ValeurCmp = RJ45_2;
+IdModule  = RJ45_8_io0;
+EndCmp
+
+BeginCmp
+TimeStamp = /610EAF28;
+Reference = J3;
+ValeurCmp = RJ45_2;
+IdModule  = RJ45_8_io0;
+EndCmp
+
+BeginCmp
+TimeStamp = /610EAF34;
+Reference = J4;
+ValeurCmp = RJ45_2;
+IdModule  = RJ45_8_io0;
+EndCmp
+
+BeginCmp
+TimeStamp = /610EAE66;
+Reference = J5;
+ValeurCmp = RJ45_2;
+IdModule  = RJ45_8_io0;
+EndCmp
+
+BeginCmp
+TimeStamp = /610EAEF8;
+Reference = J6;
+ValeurCmp = RJ45_2;
+IdModule  = RJ45_8_io0;
+EndCmp
+
+BeginCmp
+TimeStamp = /610EAF2E;
+Reference = J7;
+ValeurCmp = RJ45_2;
+IdModule  = RJ45_8_io0;
+EndCmp
+
+BeginCmp
+TimeStamp = /610EAF3A;
+Reference = J8;
+ValeurCmp = RJ45_2;
+IdModule  = RJ45_8_io0;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E943C9;
+Reference = P1;
+ValeurCmp = KLEMENS_1;
+IdModule  = KLEMENS_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /610E1F63;
+Reference = P6;
+ValeurCmp = GND;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /610E1C34;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+EndListe

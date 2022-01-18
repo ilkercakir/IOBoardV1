@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Paz 04 Tem 2021 19:02:49 +03
+
+BeginCmp
+TimeStamp = /60E1D099;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E1D10D;
+Reference = CON1;
+ValeurCmp = USB-MINI-B;
+IdModule  = MICRO_USB;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E1D0A8;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-3MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E1D00D;
+Reference = J1;
+ValeurCmp = RJ45_IN;
+IdModule  = RJ45_8_io0;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E1D01C;
+Reference = J2;
+ValeurCmp = RJ45_OUT;
+IdModule  = RJ45_8_io0;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E1E703;
+Reference = P1;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E1E709;
+Reference = P2;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E1D057;
+Reference = P3;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E1D066;
+Reference = P4;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E1E7ED;
+Reference = P5;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E1E7F3;
+Reference = P6;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E1E778;
+Reference = P7;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E1E77E;
+Reference = P8;
+ValeurCmp = CONN_5X2;
+IdModule  = PIN_ARRAY_5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E1D0C6;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E1D02B;
+Reference = U1;
+ValeurCmp = 74LS165;
+IdModule  = SO16N;
+EndCmp
+
+EndListe

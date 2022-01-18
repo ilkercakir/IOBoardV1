@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Paz 07 Kas 2021 11:48:13 +03
+
+BeginCmp
+TimeStamp = /610E143B;
+Reference = CON1;
+ValeurCmp = BARREL_JACK;
+IdModule  = BARREL_JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /6116BB64;
+Reference = CON2;
+ValeurCmp = USB-MICRO-B;
+IdModule  = USB_MICRO_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /610E1C25;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E943C9;
+Reference = P1;
+ValeurCmp = KLEMENS_1;
+IdModule  = KLEMENS_3;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E943D8;
+Reference = P2;
+ValeurCmp = CONN_12;
+IdModule  = USB_B2;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E943E7;
+Reference = P3;
+ValeurCmp = CONN_12;
+IdModule  = USB_B2;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E943F6;
+Reference = P4;
+ValeurCmp = CONN_12;
+IdModule  = USB_B2;
+EndCmp
+
+BeginCmp
+TimeStamp = /60E94405;
+Reference = P5;
+ValeurCmp = CONN_12;
+IdModule  = USB_B2;
+EndCmp
+
+BeginCmp
+TimeStamp = /610E1F63;
+Reference = P6;
+ValeurCmp = GND;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /610E1C34;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = SM0805;
+EndCmp
+
+EndListe

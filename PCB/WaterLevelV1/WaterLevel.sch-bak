@@ -1,0 +1,184 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "4 jul 2020"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L WaterLevel-rescue:RJ45_2 J1
+U 1 1 5EEF169C
+P 1650 1350
+F 0 "J1" H 1850 1850 60  0000 C CNN
+F 1 "RJ45_2" H 1500 1850 60  0000 C CNN
+F 2 "~" H 1650 1350 60  0000 C CNN
+F 3 "~" H 1650 1350 60  0000 C CNN
+	1    1650 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L WaterLevel-rescue:GND #PWR?
+U 1 1 5F0014A9
+P 1000 3050
+F 0 "#PWR?" H 1000 3050 30  0001 C CNN
+F 1 "GND" H 1000 2980 30  0001 C CNN
+F 2 "" H 1000 3050 60  0000 C CNN
+F 3 "" H 1000 3050 60  0000 C CNN
+	1    1000 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 3000 1000 3050
+Wire Wire Line
+	1000 3000 1300 3000
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 61C72BFB
+P 2300 2300
+F 0 "J2" H 2380 2292 50  0000 L CNN
+F 1 "Conn_01x02" H 2380 2201 50  0000 L CNN
+F 2 "" H 2300 2300 50  0001 C CNN
+F 3 "~" H 2300 2300 50  0001 C CNN
+	1    2300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 61C739DC
+P 2300 2550
+F 0 "J3" H 2380 2542 50  0000 L CNN
+F 1 "Conn_01x02" H 2380 2451 50  0000 L CNN
+F 2 "" H 2300 2550 50  0001 C CNN
+F 3 "~" H 2300 2550 50  0001 C CNN
+	1    2300 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 61C73CB3
+P 2300 2800
+F 0 "J4" H 2380 2792 50  0000 L CNN
+F 1 "Conn_01x02" H 2380 2701 50  0000 L CNN
+F 2 "" H 2300 2800 50  0001 C CNN
+F 3 "~" H 2300 2800 50  0001 C CNN
+	1    2300 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 61C73FA5
+P 2300 3050
+F 0 "J5" H 2380 3042 50  0000 L CNN
+F 1 "Conn_01x02" H 2380 2951 50  0000 L CNN
+F 2 "" H 2300 3050 50  0001 C CNN
+F 3 "~" H 2300 3050 50  0001 C CNN
+	1    2300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 61C80D91
+P 2300 3300
+F 0 "J6" H 2380 3292 50  0000 L CNN
+F 1 "Conn_01x02" H 2380 3201 50  0000 L CNN
+F 2 "" H 2300 3300 50  0001 C CNN
+F 3 "~" H 2300 3300 50  0001 C CNN
+	1    2300 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 61C80D97
+P 2300 3550
+F 0 "J7" H 2380 3542 50  0000 L CNN
+F 1 "Conn_01x02" H 2380 3451 50  0000 L CNN
+F 2 "" H 2300 3550 50  0001 C CNN
+F 3 "~" H 2300 3550 50  0001 C CNN
+	1    2300 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 61C80D9D
+P 2300 3800
+F 0 "J8" H 2380 3792 50  0000 L CNN
+F 1 "Conn_01x02" H 2380 3701 50  0000 L CNN
+F 2 "" H 2300 3800 50  0001 C CNN
+F 3 "~" H 2300 3800 50  0001 C CNN
+	1    2300 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 1800 1400 2300
+Wire Wire Line
+	1400 2300 2100 2300
+Wire Wire Line
+	1500 1800 1500 2550
+Wire Wire Line
+	1500 2550 2100 2550
+Wire Wire Line
+	1600 1800 1600 2800
+Wire Wire Line
+	1600 2800 2100 2800
+Wire Wire Line
+	2100 3050 1700 3050
+Wire Wire Line
+	1700 3050 1700 1800
+Wire Wire Line
+	1800 1800 1800 3300
+Wire Wire Line
+	1800 3300 2100 3300
+Wire Wire Line
+	1900 1800 1900 3550
+Wire Wire Line
+	1900 3550 2100 3550
+Wire Wire Line
+	2000 3800 2100 3800
+Wire Wire Line
+	2100 3900 1300 3900
+Wire Wire Line
+	1300 3900 1300 3650
+Connection ~ 1300 3000
+Wire Wire Line
+	2100 3650 1300 3650
+Connection ~ 1300 3650
+Wire Wire Line
+	1300 3650 1300 3400
+Wire Wire Line
+	2100 3400 1300 3400
+Connection ~ 1300 3400
+Wire Wire Line
+	1300 3400 1300 3150
+Wire Wire Line
+	2100 3150 1300 3150
+Connection ~ 1300 3150
+Wire Wire Line
+	1300 3150 1300 3000
+Wire Wire Line
+	2100 2900 1300 2900
+Connection ~ 1300 2900
+Wire Wire Line
+	1300 2900 1300 3000
+Wire Wire Line
+	2100 2650 1300 2650
+Connection ~ 1300 2650
+Wire Wire Line
+	1300 2650 1300 2900
+Wire Wire Line
+	1300 1800 1300 2400
+Wire Wire Line
+	2000 1800 2000 3800
+Wire Wire Line
+	2100 2400 1300 2400
+Connection ~ 1300 2400
+Wire Wire Line
+	1300 2400 1300 2650
+$EndSCHEMATC
