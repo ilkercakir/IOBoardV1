@@ -1,0 +1,1 @@
+insert into intervals values(1, "Interval 1 Every Second", 1, 'R');

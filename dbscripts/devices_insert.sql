@@ -1,0 +1,11 @@
+insert into devices values(0, 3, 'Enable', 1, 0, 0, 0, 'enable.png');
+insert into devices values(0, 4, 'Led', 1, 1, 0, 1, 'led.png');
+insert into devices values(0, 5, 'Bell', 3, 0, 0, 5, 'bell.png');
+insert into devices values(0, 6, 'Door Automat', 3, 1, 0, 5, 'automat.png');
+insert into devices values(1, 0, 'Pool Motor', 1, 0, 0, 0, 'motor.png');
+insert into devices values(1, 1, 'Pool Lamp', 1, 1, 0, 0, 'lamp.png');
+insert into devices values(1, 2, 'Dimmer', 2, 2, 8, 3, 'dimmer.png');
+insert into devices values(2, 7, 'Sensor 1', 5, 0, 0, 0, 'led.png');
+insert into devices values(2, 8, 'Sensor 2', 6, 1, 8, 0, 'waterlevel.png');
+insert into devices values(3, 0, 'Pool Motor 1', 1, 0, 0, 0, 'motor.png');
+insert into devices values(3, 1, 'Pool Lamp 1', 1, 1, 0, 0, 'lamp.png');

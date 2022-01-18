@@ -1,0 +1,1 @@
+insert into sgdev values(1, 0, 4, 1, 1);
